@@ -31,6 +31,12 @@ pip install termii_sdk
 
 ```python
 from termii_sdk import TermiiSDK
+from termii_sdk.core import Request
+
+# Default sdk termii_enpoint
+# TERMII_ENDPOINT = "https://api.ng.termii.com/api"
+
+Request.termii_endpoint = 'your termii endpoint'
 
 # Initialize the SDK with your API key
 api_key = "your_api_key_here"
