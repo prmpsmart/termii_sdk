@@ -1,1 +1,5 @@
-ac.cmd
+*.cmd
+.pypirc
+dist/
+build/
+*.egg-info/
