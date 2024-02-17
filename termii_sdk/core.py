@@ -116,8 +116,6 @@ class Request:
         if path:
             url += f"/{path}"
 
-        api = Json(api_key=self.api_key)
-
         if requests_type == RequestType.POST:
             json.update(self.api)
         else:
