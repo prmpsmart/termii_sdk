@@ -47,7 +47,7 @@ message = "Hello from Termii SDK!"
 phone_number = "+1234567890"
 sender_id = "Test"
 response = termii.send_message(to=phone_number, sms=message, from_=sender_id)
-print("Message ID:", response.get("message_id"))
+print("Message ID:", response.message_id)
 ```
 
 ## Authentication
